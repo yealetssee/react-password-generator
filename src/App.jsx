@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import Checkbox from "./components/checkbox";
 import GenerateButton from "./components/generateButton";
-import Strength from "./components/strength";
+
 function App() {
   const [value, setRange] = useState(5);
 
