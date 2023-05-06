@@ -113,7 +113,7 @@ function App() {
             onChange={handleChange}
           />
         </div>
-        {/* <Strength password={password} check={check} /> */}
+
         {strengthRef === null ? (
           <div className="strengthParent">
             <span>Strength</span>
